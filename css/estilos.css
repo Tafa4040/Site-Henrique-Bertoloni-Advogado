@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #731e1e;
+    padding: 40px 20px;
+    color: white;
+}
+
+.logo img{
+    width: 50%;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo p {
+    text-align: right;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.social-icons img {
+    width: 20px;
+    margin-left: 10px;
+}
+.local_destinado p {
+    text-align: right;
+    margin: 10px;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    margin-top: 20px;
+}
+
+main {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.intro {
+    background-color: #731e1e;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 25px;
+    line-height: 1.6;
+}
+.intro2 {
+    margin-top: 20px;
+    background-color: #731e1e;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+.image {
+    margin-top: 20px;
+}
+
+.image img {
+    width: 30%;
+    border-radius: 8px;
+}
+
+aside {
+    flex: 1;
+}
+
+.missao h1 {
+    text-align: center;
+    margin: top;
+}
+
+.missao {
+    background-color: #731e1e;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: 25px;
+}
+
+.valores h1 {
+    text-align: center;
+}
+.valores {
+    margin-top: 20px;
+    background-color: #731e1e;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: 25px;
+}
+
+.sidebar h1 {
+    text-align: center;
+}
+.sidebar {
+    background-color: #731e1e;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar p {
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+.sidebar a {
+    display: inline-block;
+    width: 320px;
+    text-align: center;
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 2px solid white;
+    margin: 10px;
+    transition: background 0.3s, color 0.3s;
+
+}
+
+a:hover {
+    color: red;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+section.content {
+    section.content
+    display: flex;
+    padding: 20px;
+}
